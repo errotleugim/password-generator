@@ -88,7 +88,7 @@ var password=document.getElementById("password");
     }
   //establishing empty array variable to be filled with the next statement
   let password= [];
-  //Main password generating function. 'ask' variable is the original length prompt. 'selection' is a concatenated array of the confirmed prompts
+  //Main password generating statement. 'ask' variable is the original length prompt. 'selection' is a concatenated array of the confirmed prompts
   for (var i = 0; i < ask; i++) {
     var pickselection = selection[Math.floor(Math.random() * selection.length)];
     password.push(pickselection);

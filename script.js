@@ -6,7 +6,7 @@ var special = "~`! @#$%^&*()_-+={[}]|:;<,>.?/\\ \"\'"
 var upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var ask;
 var selection;
-
+//Making button react to a click
 generateBtn.addEventListener("click", genPassword);
 
 var password=document.getElementById("password");
@@ -67,7 +67,7 @@ var password=document.getElementById("password");
       selection = special.concat(upper);
     }
     else if (small && digits) {
-      selection = letters.concat(number);
+      selection = letters.concat(numbers);
 
     } 
     else if (small && caps) {
